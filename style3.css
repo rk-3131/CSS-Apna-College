@@ -1,0 +1,31 @@
+.firstDiv {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    border-radius: 50%;
+}
+
+.topBar {
+    display: flex;
+    justify-content: space-between; /* To distribute items evenly */
+    align-items: center; /* To vertically align items */
+    background-color: black; /* Background color for the nav bar */
+    padding: 10px 20px; /* Padding for the nav bar */
+}
+
+.left {
+    margin-right: auto; /* Pushes amazon.in to the left */
+    color: yellow;
+}
+
+.center {
+    display: flex; /* Display center items as flex */
+    justify-content: space-between; /* To evenly space the center items */
+    color: white;
+    margin: auto;
+}
+
+.right {
+    margin-left: auto; /* Pushes search input and button to the right */
+    padding: 5px 10px; /* Padding for the search input and button */
+}
